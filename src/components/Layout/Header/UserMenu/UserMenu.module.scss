@@ -1,0 +1,10 @@
+@import "../../../../scss";
+
+.user_container {
+  @include lg {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    background-color: transparent;
+  }
+}

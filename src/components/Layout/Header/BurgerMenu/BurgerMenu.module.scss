@@ -1,0 +1,34 @@
+@import "../../../../scss";
+
+.icon {
+  width: 32px;
+  height: 32px;
+  stroke: $darkFontColor;
+
+  @include md {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.burger_content {
+  position: absolute;
+  z-index: 100;
+  top: 80px;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 80px);
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 32px 16px;
+  background-color: $accentBackgroundColor;
+
+  @include sm {
+    padding: 32px;
+  }
+  @include md {
+    padding: 40px;
+  }
+}

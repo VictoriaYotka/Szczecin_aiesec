@@ -1,0 +1,10 @@
+@import "../../../scss";
+
+.header {
+  padding: 20px 16px;
+  background-color: $accentBackgroundColor;
+
+  @include lg {
+    padding: 40px 16px;
+  }
+}
