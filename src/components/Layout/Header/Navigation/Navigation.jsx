@@ -6,9 +6,6 @@ const Navigation = () => {
     <nav id="#navigation">
       <ul className={css.list}>
         <li>
-          <NavLink to="/">Szczecin HOME</NavLink>
-        </li>
-        <li>
           <NavLink to="#">LC structure</NavLink>
         </li>
         <li>

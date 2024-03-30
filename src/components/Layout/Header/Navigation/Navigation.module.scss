@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: space-around;
   gap: 24px;
+  font-size: 20px;
 
   @include lg {
     flex-direction: row;

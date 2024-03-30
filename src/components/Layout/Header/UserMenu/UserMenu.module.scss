@@ -1,10 +1,12 @@
 @import "../../../../scss";
 
 .user_container {
+  font-size: 20px;
+
   @include lg {
     position: absolute;
-    top: 10%;
-    right: 0;
+    top: 168px;
+    right: 80px;
     background-color: transparent;
   }
 }

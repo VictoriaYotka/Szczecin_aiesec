@@ -5,6 +5,7 @@ import UserMenu from "./UserMenu/UserMenu";
 import { useLocation } from "react-router-dom";
 import { toggleBodyScroll } from "../../../utils";
 import BurgerMenu from "./BurgerMenu/BurgerMenu";
+import Logo from "./Logo/Logo";
 
 const Header = () => {
   const location = useLocation();
@@ -59,10 +60,12 @@ const Header = () => {
   useEffect(() => {
     setIsOpenBurgerMenu(false);
   }, [location.pathname]);
+
   return (
     <header className={css.header}>
       {isLargeScreen && (
         <>
+          <Logo />
           <Navigation />
           <UserMenu />
         </>

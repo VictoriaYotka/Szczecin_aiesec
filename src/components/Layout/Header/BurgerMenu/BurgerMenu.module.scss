@@ -1,8 +1,18 @@
 @import "../../../../scss";
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: block;
+  // margin-left: auto;
+}
+
 .icon {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   stroke: $darkFontColor;
 
   @include md {
@@ -14,13 +24,14 @@
 .burger_content {
   position: absolute;
   z-index: 100;
-  top: 80px;
+  top: 71px;
   left: 0;
   width: 100vw;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 71px);
 
   display: flex;
   flex-direction: column;
+  gap: 24px;
 
   padding: 32px 16px;
   background-color: $accentBackgroundColor;
@@ -30,5 +41,7 @@
   }
   @include md {
     padding: 40px;
+    top: 84px;
+    height: calc(100vh - 84px);
   }
 }

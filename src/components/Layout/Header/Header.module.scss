@@ -5,6 +5,10 @@
   background-color: $accentBackgroundColor;
 
   @include lg {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 24px;
     padding: 40px 16px;
   }
 }
