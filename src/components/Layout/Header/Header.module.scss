@@ -3,6 +3,7 @@
 .header {
   padding: 20px 16px;
   background-color: $accentBackgroundColor;
+  color: $lightFontColor;
 
   @include lg {
     display: flex;
